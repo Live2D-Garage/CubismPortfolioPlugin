@@ -7,7 +7,7 @@ namespace Live2D.Cubism.PortfolioPlugin.Editor
     {
         public static T GetOrAddComponent<T>(this GameObject gameObject) where T : MonoBehaviour
         {
-            return gameObject.GetComponent<T>() ?? gameObject.gameObject.AddComponent<T>();
+            return gameObject.GetComponent<T>() ?? gameObject.AddComponent<T>();
         }
 
         public static T GetOrAddComponent<T>(this MonoBehaviour monoBehaviour) where T : MonoBehaviour
