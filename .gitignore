@@ -2,12 +2,24 @@
 !/[Aa]ssets/**/*.meta
 
 # Cubism SDK for Unity's files
-Live2D
-csc.rsp
-csc.rsp.meta
-Live2D.meta
-mcs.rsp
-mcs.rsp.meta
+/[Aa]ssets/Live2D/Cubism/Core
+/[Aa]ssets/Live2D/Cubism/Editor
+/[Aa]ssets/Live2D/Cubism/Framework
+/[Aa]ssets/Live2D/Cubism/Plugins
+/[Aa]ssets/Live2D/Cubism/Rendering
+/[Aa]ssets/Live2D/Cubism/Samples
+/[Aa]ssets/Live2D/Cubism/*.md
+/[Aa]ssets/Live2D/Cubism/*.yml
+/[Aa]ssets/Live2D/Cubism/*.meta
+/[Aa]ssets/Live2D/Cubism.meta
+/[Aa]ssets/csc.rsp
+/[Aa]ssets/csc.rsp.meta
+/[Aa]ssets/Live2D.meta
+/[Aa]ssets/mcs.rsp
+/[Aa]ssets/mcs.rsp.meta
+
+# ignore PortfolioPlugin
+!/[Aa]ssets/Live2D/Cubism/PortfolioPlugin/CompletePackage
 
 /[Ll]ibrary/
 /[Tt]emp/
